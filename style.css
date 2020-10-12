@@ -1,0 +1,309 @@
+body {
+    background-color:white;
+    font-family:'lobster two', cursive;
+    color: black;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+/* header */
+
+header {
+    background-color:black;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#logoAndText {
+    padding: 10px auto;
+}
+
+header img {
+    width: 20vw;
+    margin-top: 5vh;
+}
+
+/* bienvenu */
+
+#bienvenu {
+    font-family:'lobster two', cursive;
+    margin-bottom: 5vh;
+}
+
+#bienvenu h1 {
+    color: rgb(235, 34, 118);
+    font-family: 'playball', cursive;
+    font-size: 70px;
+}
+
+#bienvenu h2 {
+    color: rgb(243, 127, 175);
+    line-height: 25px;
+    font-family: 'playball', cursive;
+    font-size: 40px;
+}
+
+#bienvenu p {
+    color: rgb(248, 203, 222);
+    font-size: 25px;
+}
+
+/* nav */
+
+nav {
+    background-color: rgb(243, 127, 175);
+    padding: 25px;
+    margin:0;
+    padding: 25px 0;
+}
+
+nav ul {
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    color: white;
+    font-family: 'playball', cursive;
+    font-size: 35px;
+    font-weight: bold;
+    text-decoration: none;
+    border: solid white 3px;
+    border-radius: 40px;
+    padding: 15px;
+}
+
+nav ul li a:hover {
+    color: black;
+    font-size: 50px;
+    transition: 0.3s;
+    border-style: dotted;
+}
+
+/* commun a toutes les sections */
+
+#fond-d-écran {
+    background: rgb(232,9,141);
+    background: linear-gradient(190deg,
+                rgba(232,9,141,0.19929978827468486) 0%,
+                rgba(255,255,255,1) 50%,
+                rgba(232,9,141,0.20210090872286413) 100%); 
+}
+
+.sections-principales {
+    margin: 20px;
+    display:flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+hr {
+    color: rgb(235, 34, 118);
+    width: 100vw;
+    line-height: 40px;
+}
+
+.titre-de-section {
+    font-family: 'playball', cursive;
+    text-align: center;
+    font-size: 45px;
+    width: 50vh;
+    border: double black 10px;
+    border-radius: 35px;
+    background-color: rgb(248, 203, 222);
+    font-weight: bold;
+    margin : 40px auto;
+}
+
+.contenu-de-section {
+    margin: 80px auto 80px;
+    display:flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+span {
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+    font-family: 'playball', cursive;
+    color: rgb(235, 34, 118);
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+/* section à propos */
+
+#fond-d-écran-a-propos {
+    background-image: url(../Portfolio/backround.jpg);
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#photoAndDescription {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#photo-de-a-propos {
+    border: outset  rgb(235, 34, 118) 5px;
+    border-radius: 35px;
+}
+
+.présentation {
+    font-size: 30px;
+    margin-left: 50px;
+    text-align: left;
+    border: outset rgb(235, 34, 118) 5px;
+    border-radius: 35px;
+    background-color: #fff;
+
+}
+
+.présentation p {
+    margin-left: 40px;
+    font-size: 25px;
+}
+
+/* section projets */
+
+#contenu-de-projets {
+ display:flex;
+ flex-wrap: wrap;
+}
+
+.projet {
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.projet p {
+    font-size: 25px;
+}
+
+.image-de-projet {
+    width: 20vw;
+    border: outset rgb(235, 34, 118) 3px;
+    border-radius: 200px;
+    margin: 0 70px; 
+}
+
+.image-de-projet:hover {
+    width: 22vw;
+    transition: 0.3s;
+    border: 5px dotted #fff;
+}
+
+/* section compétences */
+
+.section-compétences {
+    justify-content: center;
+}
+
+.image-de-compétences {
+    width: 15vw;
+    margin: auto 30px;
+    border: outset rgb(235, 34, 118) 3px;
+    border-radius: 35px;
+}
+
+/* section contactez moi */
+
+#contact {
+    flex-direction: column;
+    text-align: center;
+    font-size: 25px;
+}
+
+#résaux {
+    margin-bottom: 40px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#résaux a {
+    margin: auto 70px;
+}
+
+#résaux a i {
+    color: rgb(235, 34, 118);
+    font-size: 8vw;
+}
+
+#résaux a i:hover {
+    font-size: 10vw;
+    transition: 0.3s;
+    color: rgb(243, 127, 175);
+}
+
+#carte {
+    margin-top: 100px;
+}
+
+iframe {
+    width: 80vw;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: rgb(235, 34, 118) ;
+    display:flex;
+    justify-content: center;
+}
+
+footer p {
+    color: #fff;
+    font-family: 'Playball';
+    font-size: 20px;
+}
+
+
+/* media queries
+======================================================= */
+
+
+@media screen and (max-width: 880px) {
+
+    header img {
+       min-width: 25vw; 
+    }
+    
+    nav ul {
+        display:flex;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-bottom: 40px;
+    }
+
+    #photo-de-a-propos {
+        max-width: 70vw;
+    }
+
+    .titre-de-section {
+        max-width: 70vw;
+    }
+
+    .image-de-projet {
+        width: 30vw;
+    }
+}
+
+
+
+
